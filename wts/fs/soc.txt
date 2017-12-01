@@ -1,0 +1,28 @@
+<i class="sprite sprite-tw"></i>
+<i class="sprite sprite-fb"></i>
+<i class="sprite sprite-gg"></i>
+
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-tw {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-fb {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -5px;
+}
+
+.sprite-gg {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -5px;
+}

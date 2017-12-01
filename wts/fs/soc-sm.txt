@@ -1,0 +1,41 @@
+<i class="sprite sprite-avv"></i>
+<i class="sprite sprite-byt"></i>
+<i class="sprite sprite-dedg"></i>
+<i class="sprite sprite-ein"></i>
+<i class="sprite sprite-frss"></i>
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-avv {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-byt {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
+}
+
+.sprite-dedg {
+    width: 16px;
+    height: 16px;
+    background-position: -57px -5px;
+}
+
+.sprite-ein {
+    width: 16px;
+    height: 16px;
+    background-position: -83px -5px;
+}
+
+.sprite-frss {
+    width: 16px;
+    height: 16px;
+    background-position: -109px -5px;
+}
