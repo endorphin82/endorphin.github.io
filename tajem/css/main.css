@@ -1,0 +1,27 @@
+html body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.head{
+    background: url("../img/hbackgraund.jpg") no-repeat center top;
+
+    background-size: cover;
+
+}
+.container{
+    width: 940px;
+    height: 100%;
+}
+.logo{
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav {owerflow:hidden;}
+nav {padding: 20px 0;}
