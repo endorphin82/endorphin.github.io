@@ -25,3 +25,6 @@ nav ul li {
 }
 nav {owerflow:hidden;}
 nav {padding: 20px 0;}
+.menu{
+ text-transform: uppercase;
+}
