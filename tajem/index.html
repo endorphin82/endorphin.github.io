@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 
     <!-- <link rel="stylesheet" href="css/swiper.min.css">-->
 </head>
@@ -47,12 +48,36 @@
                 </div>
                 </div>
             </nav>
-            <div class="testimonial">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-header">
+                            We Are Awesome Creative Agency111
+                        </div>
+                        <div class="slider-line">
+                            <hr align="center" width="50" size="2" color="#11bbb5" />
 
-            testimonials
+                        </div>
+                        <div class="slider-text">
+                            This111 is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br>
+                        </div>
+                        <div class="slider-button">
+                            learn more
+                        </div>
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
-    </div>
+
 </header>
 <section class="ourstory">
     <div class="container">
@@ -90,26 +115,25 @@
 
     </div>
 </footer>
-<!--
-    <script src="js/swiper.min.js"></script>-->
-    <!-- Initialize Swiper -->
-   <!-- <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-    </script>
-	-->
+
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
 </body>
 
 </html>
