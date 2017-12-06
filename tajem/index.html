@@ -118,7 +118,7 @@
 </header>
 <section class="ourstory">
     <div class="container">
-<div class="row"">
+<div class="row">
     <div class="col-md-5">
     <img class="blogo" src="img/blogo.png">
     </div>
@@ -139,7 +139,8 @@
     </div>
 </section>
 <section class="video">
-
+<a href="#"><div class="play"></div></a>
+    <p class="watch">watch our story</p>
 </section>
 <section class="expertise">
     <div class="container">
@@ -175,6 +176,9 @@
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper('.swiper-container', {
+        autoplay: {
+            delay: 5000,
+        },
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,

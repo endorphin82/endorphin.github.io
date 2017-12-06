@@ -118,3 +118,18 @@ text-transform: uppercase;
     font-weight: 700;
     margin: 20px 0 50px 0;
 }
+/*video screen*/
+.video{
+    background: url("../img/vbackground.jpg") no-repeat center top / cover;
+}
+.play{
+    background: url("../img/play.png") no-repeat center;
+    padding: 250px 0 250px 0;
+    position: relative;
+}
+.watch{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+}
