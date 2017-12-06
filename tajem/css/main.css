@@ -93,3 +93,28 @@ nav{
 .swiper-pagination{
 padding-bottom: 70px;
 }
+/*2 screen*/
+.blogo{
+
+    padding-top: 70px;
+}
+.our-header{
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 15pt;
+    font-weight: 700;
+text-transform: uppercase;
+    padding-top: 70px;
+
+}
+.ourp{
+    color: #413d4b;
+    font-weight: 400;
+    font-size: 11pt;
+}
+.ourbutton{
+    text-transform: uppercase;
+    color:#11bbb5;
+    font-weight: 700;
+    margin: 20px 0 50px 0;
+}
