@@ -1,5 +1,5 @@
 html body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     position: relative;
     height: 100%;
 }
@@ -21,9 +21,10 @@ nav ul li {
     list-style-type: none;
 }
 .menu{
+    /*font-family: 'Roboto', sans-serif;*/
     padding: 0;
     margin: 2%;
-    font-size: 8pt;
+    font-size: 7.5pt;
     text-transform: uppercase;
 
 }
@@ -33,9 +34,9 @@ nav ul li {
     color: #fff;
     font-weight: 700;
 }
-a:hover{
+.menu a:hover{
     color: #11bbb5;
-    text-decoration:none;
+    text-decoration: none;
     transition: all 0.5s ease;
 
 }
@@ -47,6 +48,8 @@ nav{
 }
 
 .swiper-container {
+    font-family: 'Playfair Display', sans-serif;
+
     margin-top: 50px;
     width: 100%;
     height: 100%;
@@ -81,7 +84,7 @@ nav{
 
 }
 .slider-header{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 15pt;
     font-weight: 700;
 }
@@ -91,7 +94,7 @@ nav{
     padding: 0 10%;
 }
 .swiper-pagination{
-padding-bottom: 70px;
+    padding-bottom: 70px;
 }
 /*2 screen*/
 .blogo{
@@ -100,14 +103,15 @@ padding-bottom: 70px;
 }
 .our-header{
     color: #413d4b;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 15pt;
     font-weight: 700;
-text-transform: uppercase;
+    text-transform: uppercase;
     padding-top: 70px;
 
 }
 .ourp{
+    font-family: 'Playfair Display', sans-serif;
     color: #413d4b;
     font-weight: 400;
     font-size: 11pt;
@@ -128,8 +132,47 @@ text-transform: uppercase;
     position: relative;
 }
 .watch{
+    font-family: 'Playfair Display', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
     position: absolute;
+}
+.expert{
+    color: #413d4b;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 15pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+}
+.experttext{
+    font-family: 'Playfair Display', sans-serif;
+    color: #413d4b;
+    font-weight: 400;
+    font-size: 11pt;
+    text-align: center;
+}
+.expert-line{
+    margin-bottom: 80px;
+}
+/*expertise screen*/
+.expico{
+    margin: 0 0 10% 40%;
+}
+.exptitle{
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.experttext{
+    font-family: 'Roboto', sans-serif;
+    color: #413d4b;
+    font-size: 8pt;
+    font-weight: 400;
+    text-align: center;
 }
