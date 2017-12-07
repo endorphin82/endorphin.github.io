@@ -49,7 +49,6 @@ nav{
 
 .swiper-container {
     font-family: 'Playfair Display', sans-serif;
-
     margin-top: 50px;
     width: 100%;
     height: 100%;
@@ -178,3 +177,27 @@ nav{
     margin-bottom: 50px;
 }
 /*meet screen*/
+.meet{
+    background: url("../img/team_background.jpg") no-repeat center top / cover;
+}
+.meettitle{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 15pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+.meettex{
+    color: #fff;
+    font-weight: 400;
+    font-size: 11pt;
+    text-align: center;
+}
+.meet-line{
+    margin-bottom: 50px;
+}
+.meet-item-img{
+
+}
