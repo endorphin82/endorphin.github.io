@@ -178,7 +178,7 @@ nav{
 }
 /*meet screen*/
 .meet{
-    background: url("../img/team_background.jpg") no-repeat center top / cover;
+     background: url("../img/team_background.jpg") no-repeat center top / cover;
 }
 .meettitle{
     color: #fff;
