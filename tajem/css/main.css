@@ -12,6 +12,8 @@ header{
 }
 .container{
     width: 840px;
+    font-family: 'Playfair Display', sans-serif;
+
 }
 .head {
     padding: 2% 0 0 0;
@@ -48,7 +50,6 @@ nav{
 }
 
 .swiper-container {
-    font-family: 'Playfair Display', sans-serif;
     margin-top: 50px;
     width: 100%;
     height: 100%;
@@ -83,7 +84,6 @@ nav{
 
 }
 .slider-header{
-    font-family: 'Playfair Display', sans-serif;
     font-size: 15pt;
     font-weight: 700;
 }
@@ -102,7 +102,6 @@ nav{
 }
 .our-header{
     color: #413d4b;
-    font-family: 'Playfair Display', sans-serif;
     font-size: 15pt;
     font-weight: 700;
     text-transform: uppercase;
@@ -110,7 +109,7 @@ nav{
 
 }
 .ourp{
-    font-family: 'Playfair Display', sans-serif;
+   /* font-family: 'Playfair Display', sans-serif;*/
     color: #413d4b;
     font-weight: 400;
     font-size: 11pt;
@@ -131,7 +130,6 @@ nav{
     position: relative;
 }
 .watch{
-    font-family: 'Playfair Display', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
@@ -139,7 +137,6 @@ nav{
 }
 .expert{
     color: #413d4b;
-    font-family: 'Playfair Display', sans-serif;
     font-size: 15pt;
     font-weight: 700;
     text-transform: uppercase;
@@ -147,7 +144,6 @@ nav{
     margin-top: 70px;
 }
 .experttext{
-    font-family: 'Playfair Display', sans-serif;
     color: #413d4b;
     font-weight: 400;
     font-size: 11pt;
@@ -178,11 +174,12 @@ nav{
 }
 /*meet screen*/
 .meet{
-     background: url("../img/team_background.jpg") no-repeat center top / cover;
+
+    color: #fff;
+    background: url("../img/team_background.jpg") no-repeat center top / cover;
 }
 .meettitle{
     color: #fff;
-    font-family: 'Playfair Display', sans-serif;
     font-size: 15pt;
     font-weight: 700;
     text-transform: uppercase;
@@ -190,7 +187,6 @@ nav{
     margin-top: 30px;
 }
 .meettex{
-    color: #fff;
     font-weight: 400;
     font-size: 11pt;
     text-align: center;
@@ -198,6 +194,40 @@ nav{
 .meet-line{
     margin-bottom: 50px;
 }
+.meet-item{
+    text-align: center;
+    border: 1px solid #FFFFFF;
+
+}
 .meet-item-img{
 
+    display: block;
+}
+.name{
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 7pt;
+}
+.job{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 7pt;
+}
+.meet__underitem{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 7pt;
+}
+.meetbutton{
+    font-size: 8pt;
+    margin: auto;
+    text-align: center;
+    color:#11bbb5;
+    font-weight: 700;
+   /* margin: 20px 0 50px 0;*/
 }
