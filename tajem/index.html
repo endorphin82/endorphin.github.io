@@ -25,32 +25,33 @@
 </head>
 
 <body>
-<header>
+<header id="header" class="header">
         <div class="container">
-            <nav>
-                <div class="topmenu">
-                <div class="row head">
-                    <div class="col-md-5">
-                        <div class="logo">
-                        <a href="#"><img src="img/tajam_logo.png" alt="Tajam" class="logo__img"></a>
-                    </div>
-                    </div>
-                    <div class="col-md-7">
-                    <ul class="menu d-flex justify-content">
-                        <li class="menu menu-home"><a href="#">home</a></li>
-                        <li class="menu menu-about"><a href="#">about</a></li>
-                        <li class="menu menu-expertise"><a href="#">expertise</a></li>
-                        <li class="menu menu-teams"><a href="#">teams</a></li>
-                        <li class="menu menu-works"><a href="#">works</a></li>
-                        <li class="menu menu-peoplesay"><a href="#">people say</a></li>
-                        <li class="menu menu-contact"><a href="#">contact</a></li>
-                    </ul>
-                    </div>
+            <div class="row">
+                <div class="col-md-2">
+                        <div class="topmenu">
+                            <div class="logo">
+                                <a href="#"><img src="img/tajam_logo.png" alt="Tajam" class="logo__img"></a>
+                            </div>
+                        </div>
                 </div>
+                        <div class="col-md-7 ml-auto">
+                            <nav>
+                                <ul class="menu d-flex justify-content">
+                                    <li class="menu menu-home"><a href="#">home</a></li>
+                                    <li class="menu menu-about"><a href="#">about</a></li>
+                                    <li class="menu menu-expertise"><a href="#">expertise</a></li>
+                                    <li class="menu menu-teams"><a href="#">teams</a></li>
+                                    <li class="menu menu-works"><a href="#">works</a></li>
+                                    <li class="menu menu-peoplesay"><a href="#">people say</a></li>
+                                    <li class="menu menu-contact"><a href="#">contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                 </div>
-            </nav>
-            <!-- Swiper -->
-            <div class="swiper-container">
+            <div class="col-md-12">
+                <!-- Swiper -->
+                <div id=" swiper-container" class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="slider-header">
@@ -112,32 +113,32 @@
               <!--  <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>-->
             </div>
+            </div>
         </div>
-
 </header>
-<section class="ourstory">
+<section id="ourstory" class="ourstory">
     <div class="container">
-<div class="row">
-    <div class="col-md-5">
-    <img class="blogo" src="img/blogo.png">
-    </div>
-    <div class="col-md-7">
-<div class="our-header">
-    our story<p></p>
-</div>
-        <p class="ourp">
-            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+        <div class="row">
+            <div class="col-md-5">
+            <img class="blogo" src="img/blogo.png">
+            </div>
+            <div class="col-md-7">
+                <div class="our-header">
+                    our story<p></p>
+                </div>
+                <p class="ourp">
+                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
 
-        </p>
-        <p class="ourp">
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </p>
-        <button href="#" type="button" class="btn btn-outline-info ourbutton">learn more</button>
-    </div>
-</div>
+                </p>
+                <p class="ourp">
+                    Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+                <button href="#" type="button" class="btn btn-outline-info ourbutton">learn more</button>
+            </div>
+        </div>
     </div>
 </section>
-<section class="video">
+<section id="video" class="video">
 <a href="#"><div class="play"></div></a>
 </section>
 <section class="expertise">
@@ -192,17 +193,17 @@
                 <p class="experttext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
         </div>
-        </div>
-
     </div>
 </section>
-<section class="meet">
+<section id="meet" class="meet">
     <div class="container">
-        <br>
-    <p class="meettitle">meet our amasing team</p>
-    <p class="meettex">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-        <hr class="meet-line" align="center" width="50" size="2" color="#fff"/>
         <div class="row">
+            <div class="col-md-12">
+                <br>
+                <p class="meettitle">meet our amasing team</p>
+                <p class="meettex">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                <hr class="meet-line" align="center" width="50" size="2" color="#fff"/>
+             </div>
             <div class="col-md-3">
               <div class="meet-item meet-item-1">
                   <div class="meet-item-img meet-item-img-1"><img style="height: 100%; width: 100%" src="img/meetitem.png"></div>
@@ -285,19 +286,19 @@
 <script>
     var swiper = new Swiper('.swiper-container', {
         autoplay: {
-            delay: 5000,
+            delay: 5000
         },
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
         pagination: {
             el: '.swiper-pagination',
-            clickable: true,
+            clickable: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+            prevEl: '.swiper-button-prev'
+        }
     });
 </script>
 </body>
