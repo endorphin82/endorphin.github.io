@@ -223,9 +223,11 @@ nav{
     font-size: 7pt;
 }
 .meet__underitem{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     margin-top: 50px;
     text-align: center;
-    font-size: 7pt;
+    font-size: 8pt;
 }
 .meetbutton{
     font-size: 8pt;
@@ -233,5 +235,16 @@ nav{
     text-align: center;
     color:#11bbb5;
     font-weight: 700;
-   /* margin: 20px 0 50px 0;*/
+}
+/*ourworks screen*/
+
+.ourworks__title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15pt;
+}
+.ourworks__seeall{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8pt;
+    font-weight: 400;
 }
