@@ -204,7 +204,6 @@ nav{
 
 }
 .meet-item-img{
-
     display: block;
 }
 .name{
@@ -225,26 +224,70 @@ nav{
 .meet__underitem{
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     font-size: 8pt;
 }
 .meetbutton{
     font-size: 8pt;
-    margin: auto;
+    margin: 0 auto 50px;
     text-align: center;
     color:#11bbb5;
     font-weight: 700;
 }
-/*ourworks screen*/
+/*preourworks screen*/
 
-.ourworks__title{
+.preourworks__title{
+    margin: 50px 0;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15pt;
 }
-.ourworks__seeall{
+.preourworks__seeall{
+    margin: 55px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 8pt;
     font-weight: 400;
+    text-align: right;
+}
+/*ourworks screen*/
+.ourworks__img{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+/*postourworks screen*/
+.postourworks__btn{
+    text-transform: uppercase;
+    font-size: 8pt;
+    margin: 50px auto 50px;
+    text-align: center;
+    color:#11bbb5;
+    font-weight: 700;
+}
+/*testimonials screen*/
+.testimonials__img{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+/*clients screen*/
+
+.clients__news-title{
+    margin: 30px 0 0 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15pt;
+}
+.clients__form {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px 8px;
+    font-size: 8pt;
+}
+.clients__btn{
+    margin-top: 0;
+}
+.clients__msg{
+    width: 100%;
 }
