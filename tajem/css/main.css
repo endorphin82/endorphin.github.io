@@ -8,7 +8,8 @@ body{
     padding: 0;
 }
 .header{
-    background: url("../img/hbackgraund.jpg") no-repeat center top / cover;
+    background: url("../img/hbackgraund.jpg")
+    no-repeat center top / cover;
 }
 .container{
     width: 840px;
@@ -113,7 +114,6 @@ nav{
 
 }
 .ourp{
-   /* font-family: 'Playfair Display', sans-serif;*/
     color: #413d4b;
     font-weight: 400;
     font-size: 11pt;
@@ -126,10 +126,12 @@ nav{
 }
 /*video screen*/
 .video{
-    background: url("../img/vbackground.jpg") no-repeat center top / cover;
+    background: url("../img/vbackground.jpg")
+    no-repeat center top / cover;
 }
 .play{
-    background: url("../img/play.png") no-repeat center;
+    background: url("../img/play.png")
+    no-repeat center;
     padding: 250px 0 250px 0;
     position: relative;
 }
@@ -180,7 +182,8 @@ nav{
 .meet{
 
     color: #fff;
-    background: url("../img/team_background.jpg") no-repeat center top / cover;
+    background: url("../img/team_background.jpg")
+    no-repeat center top / cover;
 }
 .meettitle{
     color: #fff;
@@ -274,13 +277,13 @@ nav{
 /*clients screen*/
 
 .clients__news-title{
-    margin: 30px 0 0 0;
+    margin: 50px 0 50px 0;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15pt;
 }
 .clients__form {
-    width: 100%;
+    width: 90%;
     margin: 8px 0;
     padding: 8px 8px;
     font-size: 8pt;
@@ -290,5 +293,16 @@ nav{
 }
 .clients__msg{
     width: 100%;
-
+}
+.noresize {
+    resize: none;
+    height: 200px;
+}
+.logosrow{
+    display: flex;
+    justify-content: space-between;
+}
+.logosrow{
+    margin-bottom: 45px;
+    display: contents;
 }
