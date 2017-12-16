@@ -180,7 +180,6 @@ nav{
 }
 /*meet screen*/
 .meet{
-
     color: #fff;
     background: url("../img/team_background.jpg")
     no-repeat center top / cover;
@@ -287,6 +286,7 @@ nav{
     margin: 8px 0;
     padding: 8px 8px;
     font-size: 8pt;
+    border: 1px solid #c8c8c8;
 }
 .clients__btn{
     margin: 20px 0 50px 0;
@@ -308,3 +308,9 @@ nav{
 .logosrow__img{
     margin: auto 0;
 }
+/*footer screen*/
+.footer{
+    background: url("../img/footer_background.jpg")
+    no-repeat center top / cover;
+}
+
