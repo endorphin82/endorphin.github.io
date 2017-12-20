@@ -314,3 +314,30 @@ nav{
     no-repeat center top / cover;
 }
 
+.material-icons{
+    color: #FFFFFF;
+}
+
+.location-text{
+    margin: 55px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8pt;
+    font-weight: 400;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.cntr__list{
+    font-family: 'Roboto', sans-serif;
+
+    color: #FFFFFF;
+    font-size: 9px;
+}
+
+.cntr__location{
+     list-style-image: url(../img/location_pin_white.svg);
+ }
+
+.cntr__phone{
+    list-style-image: url("../img/phone-call90.svg");
+}
