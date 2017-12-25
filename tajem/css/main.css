@@ -317,21 +317,44 @@ nav{
 .material-icons{
     color: #FFFFFF;
 }
+.lft__logo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
-.location-text{
-    margin: 55px 0;
+.lft__text{
+    margin: 5px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 8pt;
     font-weight: 400;
-    text-align: right;
     color: #FFFFFF;
+    line-height: 2;
+    letter-spacing: 0.025em;
+}
+.cntr{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.025em;
+}
+.cntr__title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.location-text{
+    margin: 55px 0;
+    font-size: 8pt;
+    font-weight: 400;
+    text-align: right;
+
 }
 
 .cntr__list{
     font-family: 'Roboto', sans-serif;
-
     color: #FFFFFF;
     font-size: 9px;
+    letter-spacing: 0.1em;
+
 }
 
 .cntr__location{
@@ -340,4 +363,25 @@ nav{
 
 .cntr__phone{
     list-style-image: url("../img/phone-call90.svg");
+}
+.rght{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.025em;
+}
+.rght__title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.rght__email{
+    border-style: solid #fff;
+    opacity: 0.1;
+    display: inline;
+}
+.rght__btn{
+    display: inline;
+    margin-left: 10px;
+    width: 70px;
+    height: 46px;
 }
