@@ -375,13 +375,89 @@ nav{
     margin-top: 45px;
 }
 .rght__email{
-    border-style: solid #fff;
-    opacity: 0.1;
+    /*opacity: 0.1;*/
     display: inline;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8pt;
+    padding: 0 10px;
+    width: 100%;
 }
 .rght__btn{
     display: inline;
-    margin-left: 10px;
-    width: 70px;
-    height: 46px;
+    margin-left: 5px;
+    width: 65px;
+    height: 45px;
+}
+.rght__img{
+    opacity: 0.5;
+    width: 65px;
+    height: 45px;
+    fill: none;
+    stroke: #000;
+}
+
+.offer {
+    /*margin-left: 100px;*/
+    margin-top: 15px;
+}
+
+.offer__img {
+    margin-bottom: 45px;
+}
+
+.offer__intro {
+    color: #ffffff;
+    font-size: 17px;
+    text-shadow: #2772a4 3px 3px 1px;
+}
+
+.offer_links a {
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-right: 5px;
+    transition: all 0.5s ease;
+}
+
+.offer__links-item {
+    margin-right: 15px;
+}
+
+.offer__links-item_fb a {
+    background: #000000 url("../img/facebook_soc.png") no-repeat center center;
+}
+
+.offer__links-item_tw a {
+    background: #000000 url("../img/twitter_soc.png") no-repeat center center;
+}
+
+.offer__links-item_db a {
+    background: #000000 url("../img/dribbble_soc.png") no-repeat center center;
+}
+.offer__links-item_in a {
+    background: #000000 url("../img/instagram_soc.png") no-repeat center center;
+}
+.offer__links-item_gg a {
+    background: #000000 url("../img/gplus_soc.png") no-repeat center center;
+}
+.offer__links-item_yt a {
+    background: #000000 url("../img/youtube_soc.png") no-repeat center center;
+}
+
+.offer__links-item a:hover {
+    opacity: 1;
+}
+.offer li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.offer ul{
+    display: block;
+    padding: 0;
+    margin: 0;
 }
