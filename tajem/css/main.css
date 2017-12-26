@@ -461,3 +461,28 @@ nav{
     padding: 0;
     margin: 0;
 }
+
+.post-footer__menu{
+    padding: 0;
+    margin: 8% 2% 10px 0;
+    font-size: 7.5pt;
+    text-transform: uppercase;
+}
+.post-footer__menu a{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 400;
+}
+.post-footer__menu a:hover {
+    color: #11bbb5;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.post-footer__right{
+    font-size: 7.5pt;
+    color: #fff;
+    margin: 16% 0 10px 0;
+    text-align: right;
+
+}
