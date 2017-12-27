@@ -156,12 +156,38 @@ nav{
     text-align: center;
 }
 .expert-line{
-    margin-bottom: 80px;
+    margin-bottom: 10%;
 }
 /*expertise screen*/
-.expico{
-    margin: 0 0 10% 40%;
+.expert__item {
+    margin: 10% auto 10% auto;
+    width: 50px;
+    height: 50px;
+    display: block;
 }
+#expertise {
+    text-align: center;
+    padding: 55px;
+}
+.expert__item-icon1 {
+    background: url("../img/wico.png") no-repeat center center;
+}
+.expert__item-icon2 {
+    background: url("../img/pico.png") no-repeat center center;
+}
+.expert__item-icon3 {
+    background: url("../img/mico.png") no-repeat center center;
+}
+.expert__item-icon4 {
+    background: url("../img/sico.png") no-repeat center center;
+}
+.expert__item-icon5 {
+    background: url("../img/gico.png") no-repeat center center;
+}
+.expert__item-icon6 {
+    background: url("../img/hico.png") no-repeat center center;
+}
+
 .exptitle{
     color: #413d4b;
     font-family: 'Roboto', sans-serif;
@@ -178,6 +204,8 @@ nav{
     text-align: center;
     margin-bottom: 50px;
 }
+
+
 /*meet screen*/
 .meet{
     color: #fff;
