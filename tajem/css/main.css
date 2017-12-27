@@ -102,7 +102,6 @@ nav{
 }
 /*2 screen*/
 .blogo{
-
     padding-top: 70px;
 }
 .our-header{
@@ -318,7 +317,6 @@ nav{
 }
 .clients__btn{
     margin: 20px 0 50px 0;
-
 }
 .clients__msg{
     width: 100%;
@@ -422,8 +420,6 @@ nav{
     opacity: 0.5;
     width: 65px;
     height: 45px;
-    fill: none;
-    stroke: #000;
 }
 
 .offer {
@@ -512,5 +508,75 @@ nav{
     color: #fff;
     margin: 16% 0 10px 0;
     text-align: right;
+}
+
+/*media screen*/
+/*
+@media screen and (max-width: 1200px){
+}*/
+
+@media screen and (max-width: 992px){
+    .menu{
+        font-size: 6.5pt;
+    }
 
 }
+@media screen and (max-width: 772px){
+    .logo{
+        position: relative;
+    }
+    .blogo{
+        margin: 0 auto;
+        display: flex;
+    }
+    .our-header {
+        text-align: center;
+    }
+    .ourp{
+        text-align: center;
+    }
+    .ourbutton{
+        display: flex;
+        margin: 5% auto;
+    }
+    .experttext{
+        font-size: 15px;
+    }
+    .meet-item{
+        margin: 5%;
+    }
+    .preourworks__title{
+        text-align: center;
+        margin: 10% 0 5% 0;
+    }
+    .preourworks__seeall{
+        font-size: 15px;
+        text-align: center;
+        margin: 5%;
+    }
+    .clients__news-title{
+        text-align: center;
+    }
+    .clients__btn{
+        display: flex;
+        margin: 5% auto;
+    }
+    .lft__logo img{
+        display: flex;
+        margin: 5% auto;
+    }
+    .cntr__title{
+        text-align: center;
+    }
+    .rght__title{
+        text-align: center;
+    }
+    .rght__email{
+        width: 100%;
+    }
+    .rght__btn{
+        display: block;
+        width: 100%;
+    }
+}
+
