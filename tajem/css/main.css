@@ -8,8 +8,7 @@ body{
     padding: 0;
 }
 .header{
-    background: url("../img/hbackgraund.jpg")
-    no-repeat center top / cover;
+    background: url("../img/hbackgraund.jpg") no-repeat center top;
 }
 .container{
     width: 840px;
@@ -509,7 +508,10 @@ nav{
     margin: 16% 0 10px 0;
     text-align: right;
 }
+.post-footer__menu{
+    list-style-type: none;
 
+}
 /*media screen*/
 /*
 @media screen and (max-width: 1200px){
@@ -524,6 +526,8 @@ nav{
 @media screen and (max-width: 772px){
     .logo{
         position: relative;
+        display: flex;
+        margin: 5% auto;
     }
     .blogo{
         margin: 0 auto;
@@ -578,5 +582,6 @@ nav{
         display: block;
         width: 100%;
     }
+
 }
 
