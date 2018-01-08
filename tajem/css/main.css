@@ -8,8 +8,12 @@ body{
     padding: 0;
 }
 .header{
-    background: url("../img/hbackgraund.jpg") no-repeat center top;
+    background: url("../img/hbackgraund.jpg") no-repeat center top / cover;
 }
+/*.imge {*/
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+/*}*/
 .container{
     width: 840px;
     font-family: 'Playfair Display', sans-serif;
@@ -49,7 +53,6 @@ nav ul li {
     color: #fff;
 }
 nav{
-
     margin-bottom: 100px;
 }
 
@@ -59,6 +62,7 @@ nav{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+
 }
 .swiper-slide {
     text-align: center;
@@ -582,6 +586,21 @@ nav{
         display: block;
         width: 100%;
     }
-
+    .post-footer__left{
+        margin: 2%;
+    }
+    .post-footer__right{
+        margin: 2%;
+        justify-content: left;
+    }
 }
 
+
+@media screen and (max-width: 575px){
+    .header{
+        margin: 0;
+    }
+    .container{
+        max-width: 80%;
+    }
+}
