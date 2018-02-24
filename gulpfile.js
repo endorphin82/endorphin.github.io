@@ -1,9 +1,9 @@
 var
 	gulp			= require("gulp"),	//npm install gulp -D
 	livereload 		= require("gulp-livereload"),	//npm install gulp-livereload
-	sass			= require("gulp-sass");	//npm install gulp-sass
-	autoprefixer 	= require('gulp-autoprefixer');	//npm install gulp-autoprefixer - adding -browser prefix
-	cleancss 		= require('gulp-clean-css'); //npm install gulp-clean-css - minification css
+	sass			= require("gulp-sass"),	//npm install gulp-sass
+	autoprefixer 	= require('gulp-autoprefixer'),	//npm install gulp-autoprefixer - adding -browser prefix
+	cleancss 		= require('gulp-clean-css'), //npm install gulp-clean-css - minification css
 	rename 			= require('gulp-rename'); //npm install gulp-rename - adding .min to mini css
 
 gulp.task("reload-css", function() {
