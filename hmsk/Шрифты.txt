@@ -1,0 +1,19 @@
+1170:
+Заголовки Н1 OpenSans bold 36
+Заголовки Н2 OpenSans light 24
+Подзаголовки Н3 OpenSans regular 18
+Навигация и сайдбар OpenSans regular 18
+Кнопки OpenSans regular 16
+Текст OpenSans regular 14
+Индикаторы фильтров OpenSans light 14
+
+
+750:
+Заголовки Н1 OpenSans bold 30
+Заголовки Н2 OpenSans light 24
+Остальное без изменений
+
+320:
+Заголовки Н1 OpenSans bold 24
+Заголовки Н2 OpenSans light 18
+Остальное без изменений

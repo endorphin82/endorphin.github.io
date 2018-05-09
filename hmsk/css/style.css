@@ -1,1 +1,39 @@
 /* Your custom styles */
+@font-face{
+    font-family: 'Open Sans';
+    src: url('../font/osans/OpenSansRegular/OpenSansRegular.eot');
+    url('/font/osans/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+    url('/font/osans/OpenSansRegular/OpenSansRegular.ttf') format('truetype'),
+}
+.body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+.container{
+    width: 1170px;
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 36pt;
+    font-weight: 700;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24pt;
+    font-weight: 300;
+}
+.nav, .sidebar , h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+}
