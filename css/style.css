@@ -1,5 +1,5 @@
 /* Your custom styles */
-.box-items_img {
+.box-items_img > img{
 	max-height: 350px;
 	max-width: 350px;
 }
