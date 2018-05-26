@@ -2,4 +2,5 @@
 .box-items_img > img{
 	max-height: 350px;
 	max-width: 350px;
+	position: relative;
 }
