@@ -15,7 +15,6 @@ function getVideoById (id) {
   return fetch(url)
     .then(r => r.json())
 }
-
 export default {
   getVideoByText,
   getVideoById,
