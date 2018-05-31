@@ -4,7 +4,11 @@
 	width: 350px;
 	/*position: relative;*/
 }
+.box-items{
+    box-sizing: border-box;
+    margin: 10px;
+}
 
 .box-items_img{
-	/*position: static;*/
+	margin: 20px;
 }
